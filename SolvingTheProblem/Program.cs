@@ -34,7 +34,7 @@ void PrintArray(string[] array)     //Вывод результата.
     Console.Write("[" + string.Join(", ", array) + "]");
     Console.WriteLine();
 }
-
+//Создание и заполнение массива
 string[] NewArray = { "hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "Russia", "Denmark", "Kazan" };
-
+// вывод результата
 PrintArray(ArrayOfWords(NewArray));
