@@ -25,7 +25,7 @@
             count++;
         }
     }
-    Array.Resize(ref NewWords, count);
+    Array.Resize(ref NewWords, count); 
     return NewWords;
 }
 
