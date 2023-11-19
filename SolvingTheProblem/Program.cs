@@ -10,16 +10,16 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-﻿string[] ArrayOfWords(string[] array) //метод  выбора элементов длина которых <= 3 символa.
+string[] ArrayOfWords(string[] array) //метод  выбора элементов длина которых <= 3 символa.
 {
 
-    string[] NewWords = new string[11];
+    string[] NewWords = new string[11]; // Создаем новый массив
 
-    int count = 0;
+    int count = 0;                          // Создаем переменную для счетчика
 
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i++)  // перебираем массив
     {
-        if (array[i].Length <= 3)
+        if (array[i].Length <= 3)           // находим элементы длинной <=3
         {
             NewWords[count] = array[i];
             count++;
